@@ -21,5 +21,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 }]]]></http:uri-params>
 		</http:request>
 		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="18010351-fdfe-47e8-959a-dcf6dec8ff27" />
+		<logger level="INFO" doc:name="Logger" doc:id="fbed661c-61a7-4182-8b2e-f3ab982c3412" message="#[payload]"/>
 	</flow>
 </mule>
