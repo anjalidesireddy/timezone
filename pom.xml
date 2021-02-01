@@ -30,23 +30,19 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
-				<configuration>
-				
+				<configuration>	
 				<cloudHubDeployment>
 				       <uri>https://anypoint.mulesoft.com</uri>
 				       <username>Bhanu_Reddy1</username>
 				       <password>AnjuAmmu@1327!</password>
 				       <environment>Sandbox</environment>
 				       <applicationName>world-demo-api</applicationName>
-				       <workerType>MICRO</workerType>
+				       <businessGroup>Self</businessGroup>
+				       <workerType>Micro</workerType>
 				       <workers>1</workers>
-				     
 				       <muleVersion>4.3.0</muleVersion>
 				       <objectStoreV2>true</objectStoreV2>
-				       
-				      
 					</cloudHubDeployment>
-			
 				</configuration>
 			</plugin>
 		</plugins>
