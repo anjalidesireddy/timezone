@@ -33,17 +33,13 @@
 				<configuration>
 				
 				<cloudHubDeployment>
-						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>4.3.0</muleVersion>
-						<!-- Deploy User Parameter -->
-						<username>Bhanu_Reddy1</username>
-						<password>AnjuAmmu@1327!</password>
-
-						<environment>Sandbox</environment>
-						<applicationName>world-demo-api</applicationName>
-						<businessGroup>Self</businessGroup>
-						<workerType>Micro</workerType>
-						<workers>1</workers>
+				       <username>Bhanu_Reddy1</username>
+				       <environment>Sandbox</environment>
+				       <workers>1</workers>
+				       <workerType>Micro</workerType>
+				       <applicationName>world-demo-api</applicationName>
+				       <password>AnjuAmmu@1327!</password>
+				       <muleVersion>4.3.0</muleVersion>
 						<objectStoreV2>true</objectStoreV2>
 						
 					</cloudHubDeployment>
