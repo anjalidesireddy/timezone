@@ -40,8 +40,7 @@
 				       <applicationName>world-demo-api</applicationName>
 				       <password>AnjuAmmu@1327!</password>
 				       <muleVersion>4.3.0</muleVersion>
-						<objectStoreV2>true</objectStoreV2>
-						
+			
 					</cloudHubDeployment>
 			
 				</configuration>
